@@ -1176,7 +1176,7 @@ height: 100%;
 # Herovideo
 --------------------------------------------------------------*/
 
-.videoContainer {
+/*.videoContainer {
 position: absolute;
 width: 100%;
 height: 100%;
@@ -1194,9 +1194,9 @@ position: relative;
 }
 iframe {
 /* optional */
-width: 100%;
+/*width: 100%;
 height: 100%;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Sections General
