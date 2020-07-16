@@ -372,14 +372,14 @@ video[poster] {
     height: 100%;
 }
 
-#hero {
+/*#hero {
 position: relative;
 }
 iframe {
 /* optional */
-width: 100%;
+/*width: 100%;
 height: 100%;
-}
+}*/
 
 #hero:before {
   content: "";
