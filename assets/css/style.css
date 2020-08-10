@@ -944,19 +944,19 @@ height: 100%;
 
 
 /*--------------------------------------------------------------
-# About Hero Section
+# Creative Hero Section
 --------------------------------------------------------------*/
 #creative-hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/creative-hero.jpg") top center;
+  background: url("../img/creative-hero.png") top center;
   background-size: cover;
   position: relative;
 }
 
 #creative-hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1974,6 +1974,98 @@ section {
 
 @media (min-width: 1024px) {
   .about-cta {
+    background-attachment: fixed;
+  }
+}
+
+/*--------------------------------------------------------------
+# creative-Cta
+--------------------------------------------------------------*/
+.creative-cta {
+  background: linear-gradient(rgba(2, 2, 2, 0.0), rgba(0, 0, 0, 0.0)), url("../img/creative-cta.gif") center center;
+  background-size: cover;
+  height: 534px;
+  padding: 60px 0;
+}
+
+.creative-cta h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.creative-cta p {
+  color: #fff; letter-spacing: 1.5px; font-size: 15px;
+}
+
+.creative-cta .cta-btn {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.creative-cta .cta-btn:hover {
+  background: #ffd12e;
+  border: 2px solid #ffd12e;
+}
+
+@media (min-width: 1024px) {
+  .creative-cta {
+    background-attachment: fixed;
+  }
+}
+
+/*--------------------------------------------------------------
+# creative-cta-2
+--------------------------------------------------------------*/
+.creative-cta-2 {
+  background: linear-gradient(rgba(2, 2, 2, 0.0), rgba(0, 0, 0, 0.0)), url("../img/creative-cta-2.gif") center center;
+  background-size: cover;
+  height: 534px;
+  padding: 60px 0;
+}
+
+.creative-cta-2 h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.creative-cta-2 p {
+  color: #fff; letter-spacing: 1.5px; font-size: 15px;
+}
+
+.creative-cta-2 .cta-btn {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.creative-cta-2 .cta-btn:hover {
+  background: #ffd12e;
+  border: 2px solid #ffd12e;
+}
+
+@media (min-width: 1024px) {
+  .creative-cta-2 {
     background-attachment: fixed;
   }
 }
