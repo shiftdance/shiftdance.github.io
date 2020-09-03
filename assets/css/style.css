@@ -664,7 +664,7 @@ height: 100%;
   font-size: 70px;
   font-weight: 700;
   line-height: 56px; letter-spacing: 5px;
-  color: #fff;
+  color: #fff3c8;
 }
 
 #classes_hero h2 {
@@ -767,7 +767,7 @@ height: 100%;
 
 #about-hero h3 {
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color:  #fff3c8;
   font-size: 15px;
   padding: 10px 30px;
   margin-bottom: 30px;
@@ -783,7 +783,7 @@ height: 100%;
 }
 
 #about-hero h2 {
-  color: #eee;
+  color: #fff3c8;
   margin-bottom: 40px;
   font-size: 20px;
 }
@@ -881,7 +881,7 @@ height: 100%;
 
 #about-hero h3 {
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color:  #fff;
   font-size: 15px;
   padding: 10px 30px;
   margin-bottom: 30px;
@@ -897,7 +897,7 @@ height: 100%;
 }
 
 #about-hero h2 {
-  color: #eee;
+  color:  #fff3c8;
   margin-bottom: 40px;
   font-size: 20px;
 }
@@ -1328,6 +1328,82 @@ section {
 }
 
 /*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.aboutcreative .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #458befff;
+}
+
+.aboutcreative .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.aboutcreative .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.aboutcreative .content ul li + li {
+  margin-top: 10px;
+}
+
+.aboutcreative .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #e43c5c;
+  line-height: 1;
+}
+
+.aboutcreative .content p:last-child {
+  margin-bottom: 0;
+}
+
+.aboutcreative .content .btn-learn-more {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #ffd12e;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #ffd12e;
+}
+
+.aboutcreative .content .btn-learn-more:hover {
+  background: #ffd12e;
+  color: #fff;
+  text-decoration: none;
+}
+
+.aboutcreative .content .about-img {
+  position: center;
+    overflow: hidden;
+  max-width: 100%; max-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .aboutcreative .about-img {
+    height: auto;
+  }
+  #aboutcreative .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+
+/*--------------------------------------------------------------
 # SDP
 --------------------------------------------------------------*/
 .sdp .content h3 {
@@ -1400,6 +1476,81 @@ section {
     padding-bottom: 30px;
   }
 }
+
+/*--------------------------------------------------------------
+# Privates
+--------------------------------------------------------------*/
+.privates .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.privates .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.privates .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.privates .content ul li + li {
+  margin-top: 10px;
+}
+
+.privates .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #e43c5c;
+  line-height: 1;
+}
+
+.privates .content p:last-child {
+  margin-bottom: 0;
+}
+
+.privates .content .btn-learn-more {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #ffd12e;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #ffd12e;
+}
+
+.privates .content .btn-learn-more:hover {
+  background: #ffd12e;
+  color: #fff;
+  text-decoration: none;
+}
+
+.privates .content .about-img {
+  position: center;
+    overflow: hidden;
+  max-width: 100%; max-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .privates .about-img {
+    height: auto;
+  }
+  .privates .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Open classes
@@ -1648,7 +1799,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../img/services-1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../img/creativeservices-1.jpg");
   background-size: cover;
   box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
@@ -1661,7 +1812,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(rgba(2, 2, 2, 0.4), rgba(0, 0, 0, 0.2)), url("../img/services-2.jpg");
+  background: linear-gradient(rgba(2, 2, 2, 0.4), rgba(0, 0, 0, 0.2)), url("../img/creativeservices-2.jpg");
   background-size: cover;
   box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
@@ -1674,7 +1825,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(rgba(2, 2, 2, 0.4), rgba(0, 0, 0, 0.2)), url("../img/services-3.jpg");
+  background: linear-gradient(rgba(2, 2, 2, 0.4), rgba(0, 0, 0, 0.2)), url("../img/creativeservices-3.jpg");
   background-size: cover;
   box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
@@ -1687,7 +1838,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(rgba(2, 2, 2, 0.4), rgba(0, 0, 0, 0.2)), url("../img/services-4.jpg");
+  background: linear-gradient(rgba(2, 2, 2, 0.4), rgba(0, 0, 0, 0.2)), url("../img/creativeservices-4.jpg");
   background-size: cover;
   box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
@@ -2025,19 +2176,19 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .about-cta {
-  background: #ffd12e/*linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") center center*/;
+  background: #ffe894/*linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/cta-bg.jpg") center center*/;
   background-size: cover;
   padding: 60px 0;
 }
 
 .about-cta h3 {
-  color: #fff;
+  color: #4a4a4a;
   font-size: 28px;
   font-weight: 700;
 }
 
 .about-cta p {
-  color: #fff; letter-spacing: 1.5px; font-size: 15px;
+  color: #4a4a4a; letter-spacing: 1.5px; font-size: 15px;
 }
 
 .about-cta .cta-btn {
@@ -2116,7 +2267,7 @@ section {
 # creative-cta-2
 --------------------------------------------------------------*/
 .creative-cta-2 {
-  background: linear-gradient(rgba(2, 2, 2, 0.0), rgba(0, 0, 0, 0.0)), url("../img/creative-cta-2.gif") center center;
+  background: #ffd12e /*linear-gradient(rgba(2, 2, 2, 0.0), rgba(0, 0, 0, 0.0)), url("../img/creative-cta-2.gif") center center*/;
   background-size: cover;
   height: 600px;
   padding: 60px 0;
@@ -2154,6 +2305,280 @@ section {
 
 @media (min-width: 1024px) {
   .creative-cta-2 {
+    background-attachment: fixed;
+  }
+}
+
+/*--------------------------------------------------------------
+# creative-cta-home
+--------------------------------------------------------------*/
+.creative-cta-home {
+  background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.2)), url("../img/creative-cta-3.jpg") center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.creative-cta-home h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.creative-cta-home p {
+  color: #fff; letter-spacing: 1.5px; font-size: 15px;
+}
+
+.creative-cta-home .cta-btn {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.creative-cta-home .cta-btn:hover {
+  background: #ffd12e;
+  border: 2px solid #ffd12e;
+}
+
+@media (min-width: 1024px) {
+  .creative-cta-home {
+    background-attachment: fixed;
+  }
+}
+
+/*--------------------------------------------------------------
+# creative-cta-3
+--------------------------------------------------------------*/
+.creative-cta-3 {
+  background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.2)), url("../img/creative-cta-3.jpg") center center;
+  background-size: cover;
+  padding: 100px 0; height: 500px;
+}
+
+.creative-cta-3 h3 {
+  color: #fff3c8;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.creative-cta-3 p {
+  color: #fff; letter-spacing: 1.5px; font-size: 15px;
+}
+
+.creative-cta-3 .cta-btn {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.creative-cta-3 .cta-btn:hover {
+  background: #ffd12e;
+  border: 2px solid #ffd12e;
+}
+
+@media (min-width: 1024px) {
+  .creative-cta-3 {
+    background-attachment: fixed;
+  }
+}
+
+/*--------------------------------------------------------------
+# music
+--------------------------------------------------------------*/
+.music {
+  background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") center center;
+  background-size: cover;
+  height: 500px;
+  padding: 150px 0; text-align: left;
+}
+
+.music h3 {
+  color: #fff3c8;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.music p {
+  color: #fff; letter-spacing: 1.5px; font-size: 15px;
+}
+
+.music .cta-btn {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.music .cta-btn:hover {
+  background: #ffd12e;
+  border: 2px solid #ffd12e;
+}
+
+@media (min-width: 1024px) {
+  .music {
+    background-attachment: fixed;
+  }
+}
+
+/*--------------------------------------------------------------
+# fashion
+--------------------------------------------------------------*/
+.fashion {
+  background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.2)), url("../img/fashion-bg.jpg") center center;
+  background-size: cover;
+  height: 500px;
+  padding: 170px 0;
+}
+
+.fashion h3 {
+  color: #fff3c8;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.fashion p {
+  color: #fff; letter-spacing: 1.5px; font-size: 15px;
+}
+
+.fashion .cta-btn {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.fashion .cta-btn:hover {
+  background: #ffd12e;
+  border: 2px solid #ffd12e;
+}
+
+@media (min-width: 1024px) {
+  .fashion {
+    background-attachment: fixed;
+  }
+}
+
+/*--------------------------------------------------------------
+# travel (padding originally 60px)
+--------------------------------------------------------------*/
+.travel {
+  background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.2)), url("../img/travel-bg.jpeg") center center;
+  background-size: cover;
+  height: 500px;
+  padding: 180px 0;
+}
+
+.travel h3 {
+  color: #fff3c8;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.travel p {
+  color: #fff; letter-spacing: 1.5px; font-size: 15px;
+}
+
+.travel .cta-btn {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.travel .cta-btn:hover {
+  background: #ffd12e;
+  border: 2px solid #ffd12e;
+}
+
+@media (min-width: 1024px) {
+  .travel {
+    background-attachment: fixed;
+  }
+}
+
+/*--------------------------------------------------------------
+# wellness
+--------------------------------------------------------------*/
+.wellness {
+  background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.2)), url("../img/creative-flexiflow.jpg") center center;
+  background-size: cover;
+  height: 500px;
+  padding: 195px;
+}
+
+.wellness h3 {
+  color: #fff3c8;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.wellness p {
+  color: #fff; letter-spacing: 1.5px; font-size: 15px;
+}
+
+.wellness .cta-btn {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.wellness .cta-btn:hover {
+  background: #ffd12e;
+  border: 2px solid #ffd12e;
+}
+
+@media (min-width: 1024px) {
+  .wellness {
     background-attachment: fixed;
   }
 }
@@ -2251,6 +2676,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
@@ -2274,8 +2700,8 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #fff;
-  background: #ffd12e;
+  color: #e4e4e4;
+  background: #ffe894;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -2301,19 +2727,19 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #ffd12e;
+  background: #ffe894;
   padding: 15px 20px;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
-  color: #fff;
+  font-size: 14px;
+  color: #4a4a4a;
   font-weight: 600;
 }
 
 .portfolio .portfolio-item .portfolio-info p {
-  color: #fff;
-  font-size: 14px;
+  color: #4a4a4a;
+  font-size: 10px;
   margin-bottom: 0;
 }
 
@@ -2348,12 +2774,12 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #f9f9f9;
+  background: #fff3c8;
   text-align: center;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  border: 2px solid #f9f9f9;
+  border: 2px solid #fff3c8;
   height: 320px; /*i added this line*/
 }
 
@@ -2363,7 +2789,7 @@ section {
   margin-top: 15px;
   font-size: 20px;
   font-weight: 600;
-  color: #ffd12e;
+  color: #4a4a4a;
 }
 
 .pricing .box h4 {
@@ -2389,7 +2815,7 @@ section {
 .pricing .box ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+  color: #4a4a4a;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -2601,8 +3027,12 @@ section {
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-  background: #f6f6f6;
+  background: #ffe894;
   padding: 80px 0;
+}
+
+#testimonials h3 {
+  color: #4a4a4a;
 }
 
 #testimonials .profile {
@@ -2624,18 +3054,18 @@ section {
 
 #testimonials .profile h4 {
   font-weight: 400; font-family: "Noto Sans SC"; letter-spacing: 1px;
-  color: #ffd12e;
+  color: #4a4a4a;
   margin-bottom: 1px;
   margin-bottom: 1px;
 }
 
 #testimonials .profile span {
-  color: #333333; font-family: "Open Sans"; letter-spacing: 1px; font-size: 15px;
+  color: #4a4a4a; font-family: "Open Sans"; letter-spacing: 1px; font-size: 15px;
 }
 
 #testimonials .quote {
   position: relative;
-  background: #fff;
+  background: #fff3c8;
   padding: 60px;
   margin-top: 40px;
   font-size: 15px; font-family: "Open Sans";
@@ -2799,11 +3229,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ffd12e;
+  color: #ffffff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #f6f6f6;
+  background: #ffe894;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2816,7 +3246,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #493c3e;
+  color: #ffd12e;
 }
 
 .contact .info p {
@@ -3062,6 +3492,36 @@ section {
     margin-top: 30px;
   }
 }
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.clients img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+.clients img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Blog
@@ -3607,7 +4067,7 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f6f4f4;
+  background: #ffe894;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
