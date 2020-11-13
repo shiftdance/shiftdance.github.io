@@ -2629,6 +2629,51 @@ section {
 }
 
 /*--------------------------------------------------------------
+# photoshoot   
+--------------------------------------------------------------*/
+.photoshoot {
+  background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.2)), url("../img/photoshoot.jpg") center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.photoshoot h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.photoshoot p {
+  color: #fff; letter-spacing: 1.5px; font-size: 15px;
+}
+
+.photoshoot .cta-btn {
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.photoshoot .cta-btn:hover {
+  background: #ffd12e;
+  border: 2px solid #ffd12e;
+}
+
+@media (min-width: 1024px) {
+  .photoshoot {
+    background-attachment: fixed;
+  }
+}
+
+/*--------------------------------------------------------------
 # Workshops
 --------------------------------------------------------------*/
 .workshops {
